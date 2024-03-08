@@ -1,0 +1,236 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+#h_container{
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid red; */
+    
+}
+#h_header{
+    width: 220px;
+    height: 10%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#h_header svg{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+#iframe1{
+    margin-top: 100px;
+    margin-left: 15%;
+    position: relative;
+}
+#category_menu{
+    width: 60%;
+    height: 65px;
+    position: absolute;
+    /* border: 3px solid red; */
+    left: 50%;
+    bottom: 1%;
+    transform: translate(-50%);
+    display: flex;
+    
+}
+.menu_box{
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    background-color: rgba(255, 255, 255, 0.295);
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    color: #cfcfcf;
+    text-align: center;
+    line-height: 65px;
+}
+.menu_box a{
+    text-decoration: none;
+    color: #cfcfcf;
+    /* font-weight: bold; */
+    font-size: 15px;
+    
+
+}
+.menu_box:hover{
+    background-color: rgba(0, 0, 0, 0.295);
+    backdrop-filter: blur(5px);
+}
+
+.menu_box:hover a{
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text1{
+    width: 100vw;
+    height: 65vh;
+}
+
+#fall_winter_text{
+    width: 52%;
+    height: 50vh;
+    color: white;
+    /* border: 1px solid slateblue; */
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    letter-spacing: 2px;
+}
+
+#fall_winter_text h1{
+    font-size: 24px;
+    
+}
+#fall_winter_text p{
+    font-size: 18px;
+    padding-bottom: 5px;
+    font-family: "Palatino Linotype", sans-serif;
+}
+#fall_winter_text img{
+    width: 200px;
+}
+#item_list{
+    width: 100vw;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#item_list h1{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+#lookbook_list{
+    width: 80%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    margin-left: 25px;
+    
+    
+}
+#lookbook_list img{
+    width: 32.3%;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+#lookbook_list img:hover{
+    outline: 2px solid rgba(255, 255, 255, 0.822);
+    outline-offset: -2px;
+    transition: .1s ease-in-out;
+}
+
+/* 스크립트 구현 시 보여주기 */
+#img_numbering{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+#list_modal{
+    width: 100vw;
+    height: 100vh;
+
+}
+/* 스크립트 구현 시 보여주기 */
+
+#list_show{
+    width: 300px;
+    height: 60px;
+    background-color: transparent;
+    border:  2px solid rgba(219, 219, 219, 0.897);
+    margin-bottom: 30px;
+    color: rgba(219, 219, 219, 0.897);
+    padding: 18px 20px;
+    cursor: pointer;
+}
+
+.line{
+    width: 60%;
+    border: 1px solid rgba(199, 199, 199, 0.349);
+    margin-bottom: 100px;
+
+}
+
+#cradit_etc{
+    width: 100vw;
+    height: 200vh;
+    position: relative;
+    /* border: 1px solid salmon; */
+}
+
+#cradit_etc .cradit_box{
+    width: 60%;
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    /* border: 1px solid green; */
+    margin-bottom: 100px;
+}
+
+#cradit_etc .cradit_box h2{
+    color: white;
+    text-align: center;
+}
+
+#cradit_etc .shop_box{
+    width: 80%;
+    height: 500px;
+    /* border: 1px solid crimson; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    line-height: 300px;
+    letter-spacing: 2px;
+}
+
+#cradit_etc .shop_box h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#cradit_etc .shop_box button{
+    width: 200px;
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
