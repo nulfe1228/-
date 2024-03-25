@@ -10,7 +10,7 @@ body{
 }
 #h_container{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     /* border: 1px solid red; */
     
 }
@@ -36,18 +36,30 @@ body{
     margin-left: 15%;
     position: relative;
 }
-#category_menu{
+
+nav{
     width: 60%;
     height: 65px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    margin-left: 20%;
+}
+/* #category_menu{
+    width: 60%;
     position: absolute;
-    /* border: 3px solid red; */
-    left: 50%;
-    bottom: 1%;
+    border: 3px solid red;
+    
+    left: 80%;
     transform: translate(-50%);
     display: flex;
     margin: 5px;
     
-}
+    
+} */
+
+
+
 .menu_box{
     width: 25%;
     height: 100%;
